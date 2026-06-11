@@ -3,58 +3,17 @@
 #include <chrono>
 #include <sys/resource.h>
 #include <functional>
-<<<<<<< HEAD
+#include <iostream>
 #include "algorithms/general.h"
-=======
->>>>>>> 75a6cbd714c2bda519971810a74c001043022412
 
 using namespace std;
 using namespace std::chrono;
 namespace fs = std::filesystem;
 
-<<<<<<< HEAD
 void writeResultToFile(long long resultado, const string& nombre_de_archivo){
     ofstream file(nombre_de_archivo);
     if(file.is_open()){
         file << resultado << "\n";
-=======
-struct Capitulo{
-    int tiempo;
-    int energia;
-    long long satisfaccion;
-};
-
-struct Anime{
-    string nombre;
-    int numero_caps;
-    long long bono;
-    vector<Capitulo> capitulos;
-};
-
-extern long long animaraton_fuerza_bruta(int index, int tiempo_restante, int energia_restante, const vector<Anime>& animes);
-
-void Leer_Caso(const string& filepath, int& m, int& e, vector<Anime>& animes){
-    ifstream archivo(filepath);
-    if (!archivo.is_open()) {
-        cerr << "Error al abrir: " << filepath << endl;
-        return;
-    }
-    int n;
-    archivo >> n >> m >> e;
-
-    animes.clear();
-    animes.reserve(n);
-    for(int i = 0; i < n; ++i){
-        Anime anime;
-        archivo >> anime.nombre >> anime.numero_caps >> anime.bono;
-        anime.capitulos.reserve(anime.numero_caps);
-        for(int j = 0; j < anime.numero_caps; ++j){
-            Capitulo cap;
-            archivo >> cap.tiempo >> cap.energia >> cap.satisfaccion;
-            anime.capitulos.push_back(cap);
-        }
-        animes.push_back(anime);
->>>>>>> 75a6cbd714c2bda519971810a74c001043022412
     }
 }
 
@@ -74,7 +33,6 @@ int get_MemoryUsage(){
     return 0;
 }
 
-<<<<<<< HEAD
 void Leer_Caso(const string& filepath, int& m, int& e, vector<Anime>& animes){
     ifstream archivo(filepath);
     if (!archivo.is_open()) {
@@ -98,13 +56,6 @@ void Leer_Caso(const string& filepath, int& m, int& e, vector<Anime>& animes){
         animes.push_back(anime_actual);
     }
     archivo.close();
-=======
-void writeResultToFile(long long resultado, const string& nombre_de_archivo){
-    ofstream file(nombre_de_archivo);
-    if(file.is_open()){
-        file << resultado << "\n";
-    }
->>>>>>> 75a6cbd714c2bda519971810a74c001043022412
 }
 
 void realizar_mediciones(function<long long ()> sortAlgorithm, const string& algoName, const string& datasetName){
@@ -165,11 +116,7 @@ int main(){
             vector<Anime> lista_animes;
             Leer_Caso(filepath, M, E, lista_animes);
 
-<<<<<<< HEAD
             if (lista_animes.size() <= 40) {
-=======
-            if (lista_animes.size() <= 10) {
->>>>>>> 75a6cbd714c2bda519971810a74c001043022412
                 cout << "  -> Ejecutando Fuerza Bruta..." << endl;
                 realizar_mediciones(
                     [&]() { return animaraton_fuerza_bruta(0, M, E, lista_animes); }, 
@@ -177,7 +124,6 @@ int main(){
                     datasetName
                 );
             } else {
-<<<<<<< HEAD
                 cout << "  -> Saltando Fuerza Bruta (n > 40, tardaria años)..." << endl;
             }
 
@@ -188,22 +134,13 @@ int main(){
             cout << " Ejecutando Programacion dinamica " << endl;
             realizar_mediciones([&]() {return dinamica(M, E, lista_animes); }, "Dinamica", datasetName);
 
-=======
-                cout << "  -> Saltando Fuerza Bruta (n > 10, tardaria años)..." << endl;
-            }
->>>>>>> 75a6cbd714c2bda519971810a74c001043022412
         }
 
     }
 
     cout << "Resultados guardados!" << endl;
-<<<<<<< HEAD
-    /* cout << "Generando graficos..." << endl;
-    system("cd scripts && python3 plot_generator.py"); */
-=======
     cout << "Generando graficos..." << endl;
-    system("cd scripts && python3 plot_generator.py");
->>>>>>> 75a6cbd714c2bda519971810a74c001043022412
+    system("cd scripts && python3 plot_generator.py"); 
 
     return 0;
 
