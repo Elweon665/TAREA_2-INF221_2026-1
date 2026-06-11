@@ -1,0 +1,52 @@
+#include <iostream>
+#include <vector>
+#include <algorithm>
+#include <fstream>
+#include <string>
+#include <filesystem>
+#include <chrono>
+#include "general.h"
+
+using namespace std;
+namespace fs = std::filesystem;
+
+long long animaraton_fuerza_bruta(int index, int tiempo_restante, int energia_restante, const vector<Anime>& animes){
+
+    if(index == animes.size()){
+        return 0;
+    }
+
+    long long maxima_satisfaccion = animaraton_fuerza_bruta(index + 1, tiempo_restante, energia_restante, animes);
+
+    int tiempo_acumulado = 0;
+    int energia_acumulado = 0;
+    long long satisfaccion_acumulada = 0;
+
+    for(int k = 0; k < animes[index].numero_caps; ++k){
+        tiempo_acumulado += animes[index].capitulos[k].tiempo;
+        energia_acumulado += animes[index].capitulos[k].energia;
+        satisfaccion_acumulada += animes[index].capitulos[k].satisfaccion;
+
+        if(tiempo_acumulado > tiempo_restante || energia_acumulado > energia_restante){
+            break;
+        }
+
+        long long satisfaccion_actual = satisfaccion_acumulada;
+
+        if (k == animes[index].numero_caps - 1){
+            satisfaccion_actual += animes[index].bono;
+        }
+
+        long long satisfaccion_futura = animaraton_fuerza_bruta(
+            index + 1, 
+            tiempo_restante - tiempo_acumulado, 
+            energia_restante - energia_acumulado, 
+            animes
+        );
+
+        maxima_satisfaccion = max(maxima_satisfaccion, satisfaccion_actual + satisfaccion_futura);
+    }
+
+    return maxima_satisfaccion;
+
+}
