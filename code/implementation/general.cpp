@@ -116,7 +116,7 @@ int main(){
             vector<Anime> lista_animes;
             Leer_Caso(filepath, M, E, lista_animes);
 
-            if (lista_animes.size() <= 40) {
+            if (lista_animes.size() <= 201) {
                 cout << "  -> Ejecutando Fuerza Bruta..." << endl;
                 realizar_mediciones(
                     [&]() { return animaraton_fuerza_bruta(0, M, E, lista_animes); }, 
