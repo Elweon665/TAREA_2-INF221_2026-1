@@ -1,576 +1,576 @@
 Dataset: testcases_5_1
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 2225535
+Resultado (Satisfaccion): 5322573824
 Memoria utilizada (KB): 4
 -----------------------------------
 Dataset: testcases_5_1
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1299014
-Memoria utilizada (KB): 4
+Resultado (Satisfaccion): 4754236372
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_1
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 2225535
+Resultado (Satisfaccion): 4794879438
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_1
 Algoritmo: Dinamica
-Tiempo (ms): 728
-Resultado (Satisfaccion): 2225535
+Tiempo (ms): 256
+Resultado (Satisfaccion): 5322573824
 Memoria utilizada (KB): 124
 -----------------------------------
 Dataset: testcases_8_1
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1336547
+Resultado (Satisfaccion): 4722819708
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_1
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1336547
+Resultado (Satisfaccion): 3754127426
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_1
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1336547
+Resultado (Satisfaccion): 2922210765
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_1
 Algoritmo: Dinamica
-Tiempo (ms): 139
-Resultado (Satisfaccion): 1336547
+Tiempo (ms): 296
+Resultado (Satisfaccion): 4722819708
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_200_1
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 5000025
+Resultado (Satisfaccion): 13466757149
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_200_1
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 10400899
+Resultado (Satisfaccion): 12448793297
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_200_1
 Algoritmo: Dinamica
-Tiempo (ms): 3914
-Resultado (Satisfaccion): 11312688
+Tiempo (ms): 6831
+Resultado (Satisfaccion): 19216668685
 Memoria utilizada (KB): 28
 -----------------------------------
 Dataset: testcases_40_3
 Algoritmo: FuerzaBruta
-Tiempo (ms): 0
-Resultado (Satisfaccion): 1256483
+Tiempo (ms): 132
+Resultado (Satisfaccion): 9601498292
 Memoria utilizada (KB): 4
 -----------------------------------
 Dataset: testcases_40_3
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 260655
+Resultado (Satisfaccion): 5854934170
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_3
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 768003
+Resultado (Satisfaccion): 9401402256
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_3
 Algoritmo: Dinamica
-Tiempo (ms): 551
-Resultado (Satisfaccion): 1256483
-Memoria utilizada (KB): 1248
+Tiempo (ms): 788
+Resultado (Satisfaccion): 9601498292
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_2
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1942799
+Resultado (Satisfaccion): 3142313128
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_2
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1888832
+Resultado (Satisfaccion): 3142313128
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_2
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1774475
+Resultado (Satisfaccion): 3142313128
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_2
 Algoritmo: Dinamica
-Tiempo (ms): 217
-Resultado (Satisfaccion): 1942799
+Tiempo (ms): 41
+Resultado (Satisfaccion): 3142313128
 Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: testcases_80_3
+Algoritmo: Greedy_1
+Tiempo (ms): 0
+Resultado (Satisfaccion): 5488462455
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: testcases_80_3
+Algoritmo: Greedy_2
+Tiempo (ms): 0
+Resultado (Satisfaccion): 3483187810
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: testcases_80_3
+Algoritmo: Dinamica
+Tiempo (ms): 3382
+Resultado (Satisfaccion): 7213116812
+Memoria utilizada (KB): 3148
 -----------------------------------
 Dataset: testcases_8_2
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1194033
+Resultado (Satisfaccion): 6352940480
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_2
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 755844
+Resultado (Satisfaccion): 5723129014
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_2
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 631742
+Resultado (Satisfaccion): 5021635791
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_2
 Algoritmo: Dinamica
-Tiempo (ms): 255
-Resultado (Satisfaccion): 1194033
+Tiempo (ms): 1150
+Resultado (Satisfaccion): 6352940480
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_3
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 2504819
+Resultado (Satisfaccion): 9163575920
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_3
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1671488
+Resultado (Satisfaccion): 8154811075
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_3
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 2356613
+Resultado (Satisfaccion): 7942037386
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_8_3
 Algoritmo: Dinamica
-Tiempo (ms): 349
-Resultado (Satisfaccion): 2504819
+Tiempo (ms): 556
+Resultado (Satisfaccion): 9163575920
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_3
 Algoritmo: FuerzaBruta
-Tiempo (ms): 29
-Resultado (Satisfaccion): 2452087
+Tiempo (ms): 0
+Resultado (Satisfaccion): 393782794
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_3
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 675997
+Resultado (Satisfaccion): 331138987
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_3
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 2025342
+Resultado (Satisfaccion): 393782794
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_3
 Algoritmo: Dinamica
-Tiempo (ms): 804
-Resultado (Satisfaccion): 2452087
+Tiempo (ms): 7
+Resultado (Satisfaccion): 393782794
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_200_2
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 3078698
+Resultado (Satisfaccion): 4369129814
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_200_2
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 7070769
+Resultado (Satisfaccion): 5773554840
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_200_2
 Algoritmo: Dinamica
-Tiempo (ms): 3114
-Resultado (Satisfaccion): 9308517
+Tiempo (ms): 396
+Resultado (Satisfaccion): 7964010712
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_100_1
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1095518
+Resultado (Satisfaccion): 1221601443
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_100_1
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1511437
+Resultado (Satisfaccion): 1005496659
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_100_1
 Algoritmo: Dinamica
-Tiempo (ms): 1518
-Resultado (Satisfaccion): 1893234
-Memoria utilizada (KB): 156
+Tiempo (ms): 292
+Resultado (Satisfaccion): 2644605429
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_2
 Algoritmo: FuerzaBruta
-Tiempo (ms): 300
-Resultado (Satisfaccion): 1834388
+Tiempo (ms): 580
+Resultado (Satisfaccion): 10369131115
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_2
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 806315
+Resultado (Satisfaccion): 6573842096
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_2
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1399642
+Resultado (Satisfaccion): 10106622896
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_2
 Algoritmo: Dinamica
-Tiempo (ms): 1516
-Resultado (Satisfaccion): 1834388
+Tiempo (ms): 3553
+Resultado (Satisfaccion): 10369131115
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_3
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1167051
+Resultado (Satisfaccion): 3057475268
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_3
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 513902
+Resultado (Satisfaccion): 2659674641
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_3
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1093455
+Resultado (Satisfaccion): 3057475268
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_3
 Algoritmo: Dinamica
-Tiempo (ms): 608
-Resultado (Satisfaccion): 1167051
+Tiempo (ms): 31
+Resultado (Satisfaccion): 3057475268
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_2
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1374312
+Resultado (Satisfaccion): 5066029491
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_2
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 604816
+Resultado (Satisfaccion): 4503349076
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_2
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1374312
+Resultado (Satisfaccion): 4855507340
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_2
 Algoritmo: Dinamica
-Tiempo (ms): 307
-Resultado (Satisfaccion): 1374312
+Tiempo (ms): 287
+Resultado (Satisfaccion): 5066029491
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_100_2
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1072063
+Resultado (Satisfaccion): 10148295206
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_100_2
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 3970407
+Resultado (Satisfaccion): 10475318109
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_100_2
 Algoritmo: Dinamica
-Tiempo (ms): 1539
-Resultado (Satisfaccion): 4161913
+Tiempo (ms): 17333
+Resultado (Satisfaccion): 18124380421
 Memoria utilizada (KB): 0
------------------------------------
-Dataset: testcases_60_1
-Algoritmo: Greedy_1
-Tiempo (ms): 0
-Resultado (Satisfaccion): 917475
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: testcases_60_1
-Algoritmo: Greedy_2
-Tiempo (ms): 0
-Resultado (Satisfaccion): 2946475
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: testcases_60_1
-Algoritmo: Dinamica
-Tiempo (ms): 1518
-Resultado (Satisfaccion): 2946475
-Memoria utilizada (KB): 672
 -----------------------------------
 Dataset: testcases_20_1
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1283921
+Resultado (Satisfaccion): 5312944941
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_1
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 455875
+Resultado (Satisfaccion): 3760979807
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_1
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1218749
+Resultado (Satisfaccion): 1424745582
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_20_1
 Algoritmo: Dinamica
-Tiempo (ms): 469
-Resultado (Satisfaccion): 1283921
+Tiempo (ms): 115
+Resultado (Satisfaccion): 5312944941
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_1
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 872560
+Resultado (Satisfaccion): 1506567101
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_1
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 179010
+Resultado (Satisfaccion): 1506567101
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_1
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 866983
+Resultado (Satisfaccion): 1506567101
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_1
 Algoritmo: Dinamica
-Tiempo (ms): 21
-Resultado (Satisfaccion): 872560
+Tiempo (ms): 13
+Resultado (Satisfaccion): 1506567101
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_2
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 68503
+Resultado (Satisfaccion): 3427498724
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_2
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 68503
+Resultado (Satisfaccion): 3427498724
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_2
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 13316
+Resultado (Satisfaccion): 3427498724
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_5_2
 Algoritmo: Dinamica
-Tiempo (ms): 11
-Resultado (Satisfaccion): 68503
+Tiempo (ms): 207
+Resultado (Satisfaccion): 3427498724
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: testcases_80_1
+Algoritmo: Greedy_1
+Tiempo (ms): 0
+Resultado (Satisfaccion): 11478619973
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: testcases_80_1
+Algoritmo: Greedy_2
+Tiempo (ms): 0
+Resultado (Satisfaccion): 8022803454
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: testcases_80_1
+Algoritmo: Dinamica
+Tiempo (ms): 5549
+Resultado (Satisfaccion): 14443401945
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: testcases_80_2
+Algoritmo: Greedy_1
+Tiempo (ms): 0
+Resultado (Satisfaccion): 8237736162
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: testcases_80_2
+Algoritmo: Greedy_2
+Tiempo (ms): 0
+Resultado (Satisfaccion): 5668167972
+Memoria utilizada (KB): 0
+-----------------------------------
+Dataset: testcases_80_2
+Algoritmo: Dinamica
+Tiempo (ms): 3983
+Resultado (Satisfaccion): 12050047787
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_200_3
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 6000556
+Resultado (Satisfaccion): 10104621594
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_200_3
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 10848443
+Resultado (Satisfaccion): 17530015628
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_200_3
 Algoritmo: Dinamica
-Tiempo (ms): 13319
-Resultado (Satisfaccion): 13386835
+Tiempo (ms): 20234
+Resultado (Satisfaccion): 29080010616
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_150_3
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 1336172
+Resultado (Satisfaccion): 9649332724
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_150_3
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 3467921
+Resultado (Satisfaccion): 8013389165
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_150_3
 Algoritmo: Dinamica
-Tiempo (ms): 1870
-Resultado (Satisfaccion): 4095463
+Tiempo (ms): 4893
+Resultado (Satisfaccion): 15920380326
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_150_2
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 2676706
+Resultado (Satisfaccion): 7801517113
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_150_2
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 8385774
+Resultado (Satisfaccion): 7219722455
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_150_2
 Algoritmo: Dinamica
-Tiempo (ms): 4992
-Resultado (Satisfaccion): 10135699
+Tiempo (ms): 976
+Resultado (Satisfaccion): 11340649271
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_150_1
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 3081804
+Resultado (Satisfaccion): 10137808844
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_150_1
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 7381887
+Resultado (Satisfaccion): 12542292298
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_150_1
 Algoritmo: Dinamica
-Tiempo (ms): 3468
-Resultado (Satisfaccion): 7560152
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: testcases_60_2
-Algoritmo: Greedy_1
-Tiempo (ms): 0
-Resultado (Satisfaccion): 933260
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: testcases_60_2
-Algoritmo: Greedy_2
-Tiempo (ms): 0
-Resultado (Satisfaccion): 6352632
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: testcases_60_2
-Algoritmo: Dinamica
-Tiempo (ms): 6899
-Resultado (Satisfaccion): 6677947
+Tiempo (ms): 5354
+Resultado (Satisfaccion): 15912804637
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_3
 Algoritmo: FuerzaBruta
 Tiempo (ms): 0
-Resultado (Satisfaccion): 115608
+Resultado (Satisfaccion): 5473218418
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_3
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 81530
+Resultado (Satisfaccion): 4266690527
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_3
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 115608
+Resultado (Satisfaccion): 3537082370
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_3_3
 Algoritmo: Dinamica
-Tiempo (ms): 92
-Resultado (Satisfaccion): 115608
-Memoria utilizada (KB): 432
+Tiempo (ms): 319
+Resultado (Satisfaccion): 5473218418
+Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_100_3
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 895325
+Resultado (Satisfaccion): 6016609854
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_100_3
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 6501594
+Resultado (Satisfaccion): 6158551318
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_100_3
 Algoritmo: Dinamica
-Tiempo (ms): 5085
-Resultado (Satisfaccion): 8226899
+Tiempo (ms): 2643
+Resultado (Satisfaccion): 10627471169
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_1
 Algoritmo: FuerzaBruta
-Tiempo (ms): 84
-Resultado (Satisfaccion): 3357977
+Tiempo (ms): 4
+Resultado (Satisfaccion): 6100168591
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_1
 Algoritmo: Greedy_1
 Tiempo (ms): 0
-Resultado (Satisfaccion): 510202
+Resultado (Satisfaccion): 4368535915
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_1
 Algoritmo: Greedy_2
 Tiempo (ms): 0
-Resultado (Satisfaccion): 2712069
+Resultado (Satisfaccion): 2898522286
 Memoria utilizada (KB): 0
 -----------------------------------
 Dataset: testcases_40_1
 Algoritmo: Dinamica
-Tiempo (ms): 782
-Resultado (Satisfaccion): 3357977
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: testcases_60_3
-Algoritmo: Greedy_1
-Tiempo (ms): 0
-Resultado (Satisfaccion): 826341
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: testcases_60_3
-Algoritmo: Greedy_2
-Tiempo (ms): 0
-Resultado (Satisfaccion): 846825
-Memoria utilizada (KB): 0
------------------------------------
-Dataset: testcases_60_3
-Algoritmo: Dinamica
-Tiempo (ms): 99
-Resultado (Satisfaccion): 846825
+Tiempo (ms): 460
+Resultado (Satisfaccion): 6100168591
 Memoria utilizada (KB): 0
 -----------------------------------

@@ -28,21 +28,21 @@ def generar_casos(n, identifier, output_dir="."):
         for i in range(n):
             anime_name = f"anime_{i+1}_gen"
             q_i = q_values[i]
-            b_i = random.randint(0, 1000000)
+            b_i = random.randint(0, 1000000000)
 
             f.write(f"{anime_name} {q_i} {b_i}\n")
 
             for _ in range(q_i):
                 t_ij = random.randint(1, 300)
                 c_ij = random.randint(1, 100)
-                v_ij = random.randint(1, 100000)
+                v_ij = random.randint(1, 1000000000)
 
                 f.write(f"{t_ij} {c_ij} {v_ij}\n")
     print(f"Generado: {filename} (Capítulos totales: {q_total}, Minutos: {m}, Energía: {e})")
 
 def main():
     casos_pequenos = [3,5,8]
-    casos_medianos = [20, 40, 60]
+    casos_medianos = [20, 40, 80]
     casos_grandes = [100, 150, 200]
 
     total_tamanos = casos_pequenos + casos_medianos + casos_grandes

@@ -13,3 +13,38 @@ Escoja las gráficas más representativas y que muestren de manera clara los res
 \begin{mdframed}
     Recuerde que es imprescindible que se pueda replicar la generación de las gráficas, por lo que usted debe referir a las figuras generadas en `code/implementation/data/plots/`.
 \end{mdframed}
+
+Antes de introducir los resultados, es escencial explicar los algoritmos utlizados en este experimento.
+
+\textbf{Algoritmo de fuerza bruta.}
+
+El algoritmo empleado acá consiste en buscar y sumar de forma recursiva la mayor satisfaccion encontrada para cada anime, ccomparando tiempos, energia y satisfacccion acumulada, respetando las restricciones dadas por el enunciado del laboratorio, probando todas las posibilidades hasta encontrar la maxima satisfacccion posible en un caso de prueba en cuestion.
+
+\textbf{Heuristia de greedy 1.}
+
+La primera heuristica de greedy implementada consiste en un enfoque de corto plazo, enfocandose solo en al capitulo siguiente y respetando las restriccion mencionadas por el enunciado, realizando multiplicaciones y divisiones en un solo ciclo, aumentando la rentabilidad de cada capitulo, y en base a ello maximizar la satisfaccion obtenida.
+
+\textbf{Heuristia de greedy 2.}
+
+En esta heuristica se busca planificar viendo cuanto costaria ver los animes completos y cuanta satisfaccion total darian, obteniendo un ratio global. Luego realiza la ejecucion real viendo los capitulos 1 por 1. SI se acaba el tiempo o la energia se abandona el anime y pasa al siguiente. Con todo calculado se obtiene la satisfaccion total maximizada al final de todo.
+
+\textbf{Algoritmo de programacion dinamica.}
+
+El algoritmo de programacion dinamica implementado hace uso de una matriz bidimensional la cual guarda la maxima satisfaccion posible que se pueda alcanzar con el m tiempo y e energia disponible.
+Calcula las opciones de visualizacion en paquetes respetando las restricciones, viendolos como opciones cerradas, escogiendo el más conveniente.
+Al escoger una combinacion tras recorrer todos los paquetes posibles, escoge la mejor opcion posible con los recursos de tiempo y energia disponibles. guardan el valor maximo.
+
+\textbf{Analisis de la complejidad temporal y espacial de cada enfoque.}
+
+Para el caso de nuestro algoritmo de fuerza bruta, al recurrir a la recursivdad por capitulo dada una cantidad n de animes tenemos complejidad temporal O((C + 1)$^n$) y espacial O(n), esto ultimo al no guardar matriz alguna.
+
+Para los algoritmos de Greedy, la primera heuristica al funcionar bajo un sistema de corto plazo para cada anime y capitulo de estos mismos tenemos una complejidad temporal de O(n$^2$ * C) y dado los vectores auxilares creados tenemos una complejidad espacial de O(n).
+En la segunda heuristia tenemos un ciclo para los ratios sumando capitulos, un oren de lista y un recorrido de lista, lo que nos da una complejidad temporal de O(n*logn + n*c) y al crear usar el vector tenemos una complejidad espacial de O(n).
+
+Finalmente, para la programacion dinamica observamos iteraciones por todos los animes, dentro trenemos una iteracion de los tiempos, de la energia y de los prefijos, dandonos en el peor de los casos una complejidad temporal de O(n * m * c * e), además, se crea una matriz de tamaño n*e, por lo que tenemos una complejidad espacial de O(m*e)
+
+\textbf{Comparacion experimental de tiempo y memoria.}
+
+
+
+\textbf{Comparación de calidad de solución entre greedy y programación dinámica.}

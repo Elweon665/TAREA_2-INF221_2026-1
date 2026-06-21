@@ -18,8 +18,8 @@ long long animaraton_fuerza_bruta(int index, int tiempo_restante, int energia_re
 
     long long maxima_satisfaccion = animaraton_fuerza_bruta(index + 1, tiempo_restante, energia_restante, animes);
 
-    int tiempo_acumulado = 0;
-    int energia_acumulado = 0;
+    long long tiempo_acumulado = 0;
+    long long energia_acumulado = 0;
     long long satisfaccion_acumulada = 0;
 
     for(int k = 0; k < animes[index].numero_caps; ++k){

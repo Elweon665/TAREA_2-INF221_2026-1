@@ -116,7 +116,7 @@ int main(){
             vector<Anime> lista_animes;
             Leer_Caso(filepath, M, E, lista_animes);
 
-            if (lista_animes.size() <= 201) {
+            if (lista_animes.size() <= 40) {
                 cout << "  -> Ejecutando Fuerza Bruta..." << endl;
                 realizar_mediciones(
                     [&]() { return animaraton_fuerza_bruta(0, M, E, lista_animes); }, 
@@ -124,7 +124,7 @@ int main(){
                     datasetName
                 );
             } else {
-                cout << "  -> Saltando Fuerza Bruta (n > 40, tardaria años)..." << endl;
+                cout << "  -> Saltando Fuerza Bruta (n > 40, ha sido probado antes y toma muchas horas en ejecutar)..." << endl;
             }
 
             cout << " Ejecutando Greedy 1 " << endl;
