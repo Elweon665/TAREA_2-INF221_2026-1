@@ -1,3 +1,8 @@
+/* Fuentes de informacion:
+-Recursive Knapsack 0-1 Problem:https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10
+-Space optimization using bit manipulations: https://www.geeksforgeeks.org/dsa/space-optimization-using-bit-manipulations/
+-Ideas de gemini*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -10,7 +15,9 @@
 using namespace std;
 namespace fs = std::filesystem;
 
-
+//Recursive Knapsack 0-1 Problem: Al igual que con fuerza bruta, se utilizo dicha fuente para tomar la idea del uso de dp bidimencional
+//Space optimization using bit manipulations: Se utilizó como inspiracion para crear el "rastreo" de animes ya vistos
+//Ideas de Gemini: Se utilizó para adaptar este enfoque al contexto de la tarea.
 long long dinamica(int M, int E, const vector <Anime>& animes){
     vector<vector<long long>> dp(M + 1, vector<long long>(E +1,0));
 

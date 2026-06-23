@@ -1,3 +1,14 @@
+/*Fuentes de informacion:
+-C++ Files and Streams https://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm
+-How to Measure Memory Usage in C++ https://mrswolf.github.io/memory-usage-cpp/
+-Using getline() with the file input in C++ https://stackoverflow.com/questions/20739453/using-getline-with-file-input-in-c
+-Getline en C++ - Ejemplo con función getline() https://www.freecodecamp.org/espanol/news/getline-en-c-ejemplo-con-funcion-getline/
+-getrusage(2) — Linux manual page https://man7.org/linux/man-pages/man2/getrusage.2.html
+-Ideas de gemini www.gemini.google.com
+-The /proc Filesystem https://www.kernel.org/doc/html/latest/filesystems/proc.html
+-std::filesystem::path https://en.cppreference.com/w/cpp/filesystem/path.html*/
+
+
 #include <bits/stdc++.h>
 #include <filesystem>
 #include <chrono>
@@ -10,6 +21,8 @@ using namespace std;
 using namespace std::chrono;
 namespace fs = std::filesystem;
 
+//C++ Files and Streams https://www.tutorialspoint.com/cplusplus/cpp_files_streams.htm
+//Ciertas ideas del codigo fueron tomados de aqui
 void writeResultToFile(long long resultado, const string& nombre_de_archivo){
     ofstream file(nombre_de_archivo);
     if(file.is_open()){
@@ -17,6 +30,9 @@ void writeResultToFile(long long resultado, const string& nombre_de_archivo){
     }
 }
 
+//Ideas de gemini
+//The /proc Filesystem
+//Se combinaronambas ideas para crear la funcion
 int get_MemoryUsage(){
     ifstream status("/proc/self/status");
     string line;
@@ -33,6 +49,9 @@ int get_MemoryUsage(){
     return 0;
 }
 
+//-C++ Files and Streams
+//Using getline() with the file input in C++
+//Se cominaron ambas fuentes ppara la funcion.
 void Leer_Caso(const string& filepath, int& m, int& e, vector<Anime>& animes){
     ifstream archivo(filepath);
     if (!archivo.is_open()) {
@@ -58,16 +77,17 @@ void Leer_Caso(const string& filepath, int& m, int& e, vector<Anime>& animes){
     archivo.close();
 }
 
+//-C++ Files and Streams
+//Using getline() with the file input in C++
+//Ideas de Gemini
+
 void realizar_mediciones(function<long long ()> sortAlgorithm, const string& algoName, const string& datasetName){
     long memoria_inicial = get_MemoryUsage();
 
     auto start = high_resolution_clock::now();
     
-    // Ejecutar el algoritmo y guardar el resultado
     long long resultado_optimo = sortAlgorithm(); 
     
-    // Nota: en recursiones profundas, el peak real puede ocurrir en medio, 
-    // pero leer VmRSS aquí sigue siendo la métrica de asignación más confiable
     long memoria_post = get_MemoryUsage(); 
     auto stop = high_resolution_clock::now();
 
@@ -94,6 +114,10 @@ void realizar_mediciones(function<long long ()> sortAlgorithm, const string& alg
     writeResultToFile(resultado_optimo, sortedFilename);
 }
 
+//-C++ Files and Streams
+//Using getline() with the file input in C++
+//Ideas de Gemini
+//std::filesystem::path
 int main(){
     string directorio_entrada = "data/inputs";
 

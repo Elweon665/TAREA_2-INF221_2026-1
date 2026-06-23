@@ -1,2 +1,0 @@
-https://www.w3schools.com/dsa/dsa_ref_knapsack.php
-https://www.geeksforgeeks.org/dsa/fractional-knapsack-problem/

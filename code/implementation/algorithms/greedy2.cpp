@@ -1,3 +1,7 @@
+/* Scheduling in Greedy Algorithms: https://www.geeksforgeeks.org/dsa/scheduling-in-greedy-algorithms/
+GeeksforGeeks: Fractional Knapsack Problem: https://www.geeksforgeeks.org/fractional-knapsack-problem/
+Ideas de Gemini*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -15,6 +19,11 @@ struct AnimeRatio {
     double ratio_global;
 };
 
+//Scheduling in Greedy Algorithms
+//GeeksforGeeks: Fractional Knapsack Problem
+//Ideas de gemini
+//Aqui se tomo como parte de la idea la primera fuente, la segunda se reutilizó para retomar parcialmente la idea pero con un enfoque distinto a la
+//primera heuristica, además del uso de gemini para ayudar a organizar mejor la idea de esta heurística y que se diferencia notoriamente de la primera.
 long long greedy_2(int m, int e, const vector<Anime>& animes){
     int n = animes.size();
 

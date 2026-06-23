@@ -1,3 +1,7 @@
+/*Fuentes de informacion:
+GeeksforGeeks: Fractional Knapsack Problem: https://www.geeksforgeeks.org/fractional-knapsack-problem/
+Ideas de Gemini*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -10,7 +14,8 @@
 using namespace std;
 namespace fs = std::filesystem;
 
-
+//GeeksforGeeks: Fractional Knapsack Problem: Parte de la idea de este enfoque greedy se obtuvo de acá
+//Ideas de gemini: Se utilizó para adaptar la idea a la tarea y que aprovece el enfoque greedy en si y ayudar a evitar que se utilice el enfoque incorrecto
 long long greedy_1(int m, int e, const vector<Anime>& animes){
     int n = animes.size();
 

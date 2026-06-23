@@ -1,3 +1,7 @@
+/* Fuentes de informacion:
+-Recursive Knapsack 0-1 Problem:https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10
+-Ideas de gemini*/
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -10,6 +14,8 @@
 using namespace std;
 namespace fs = std::filesystem;
 
+//-Recursive Knapsack 0-1 Problem: Se tomo parte de la idea del problema de mochila para realizar una parte del codigo.
+//Ideas e Gemini: Se utilizó para ayudar a adaptar dicho problema al contexto de la tarea, manteniendo el enfoque de fuerza bruta.
 long long animaraton_fuerza_bruta(int index, int tiempo_restante, int energia_restante, const vector<Anime>& animes){
 
     if(index == animes.size()){
