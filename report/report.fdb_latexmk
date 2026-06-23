@@ -1,12 +1,15 @@
 # Fdb version 4
-["biber report"] 0 "report.bcf" "report.bbl" "report" 1781989864.8908 -1
+["biber report"] 0 "report.bcf" "report.bbl" "report" 1782187493.97739 -1
   "references.bib" 1778111655 2235 085c5b26f2f30d734bd4df514e7a1ee9 ""
-  "report.bcf" 1781989864.72949 108551 66f4bafccad88a84f77b14c7778652d8 "pdflatex"
+  "report.bcf" 1782187493.82186 108551 66f4bafccad88a84f77b14c7778652d8 "pdflatex"
   (generated)
   "report.bbl"
   "report.blg"
   (rewritten before read)
-["pdflatex"] 1781989862.92871 "/home/elweon665/Escritorio/Algoco/INF221-2026-1-TAREA-2-main/report/report.tex" "report.pdf" "report" 1781989864.89111 0
+["pdflatex"] 1782187490.90114 "/home/elweon665/Escritorio/Algoco/INF221-2026-1-TAREA-2-main/report/report.tex" "report.pdf" "report" 1782187493.97771 0
+  "../code/implementation/data/plots/calidad_solucion.png" 1782184361.04318 251648 352d03528e280b5fe9dba19218b15975 ""
+  "../code/implementation/data/plots/consumo_memoria.png" 1782184361.77116 183462 40daf5e0e79a5704a2a7d87c3377fa6e ""
+  "../code/implementation/data/plots/tiempo_ejecucion.png" 1782184361.41117 196772 cf588c816c04e43d7d72f1bd44634dd4 ""
   "/home/elweon665/Escritorio/Algoco/INF221-2026-1-TAREA-2-main/report/report.tex" 1778116684 986 715f5e89b3bf258b9f678b0631223fa6 ""
   "/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -298,14 +301,14 @@
   "/usr/local/texlive/2026/texmf.cnf" 1774302835.94307 455 5b996dcaa0eb4ef14a83b026bc0a008c ""
   "author.tex" 1781979844.54267 506 f3cc9dec14c9315130307499ffe1924b ""
   "preamble.tex" 1778111655 2163 4b0cc777241a9fa0f82b663d831cc656 ""
-  "report.aux" 1781989864.71349 895 2bf3bcb0379f2d0040eea64ab8f07e20 "pdflatex"
+  "report.aux" 1782187493.79786 1793 950480ad9120be153dc25bc43af3bb88 "pdflatex"
   "report.bbl" 1778116291 486 e75d7e0db03f09d45b25df2f538bb294 "biber report"
-  "report.out" 1781989864.72549 406 9f014d8548a379b0748383f91ce3555e "pdflatex"
-  "report.run.xml" 1781989864.73349 2319 85416a11bf768be6a1e5b1dccfd5e02c "pdflatex"
+  "report.out" 1782187493.81786 406 9f014d8548a379b0748383f91ce3555e "pdflatex"
+  "report.run.xml" 1782187493.82186 2319 85416a11bf768be6a1e5b1dccfd5e02c "pdflatex"
   "report.tex" 1778116684 986 715f5e89b3bf258b9f678b0631223fa6 ""
-  "sections/conclusions.tex" 1778115975 278 56040fbacf151362f720a9be978c90ce ""
-  "sections/experiment_intro.tex" 1781989862.69747 717 09c259b53d73e13b6144f4417b1a7b60 ""
-  "sections/experiment_results.tex" 1781989761.70835 4144 a996980e80671f73fb0964fc6cf778cc ""
+  "sections/conclusions.tex" 1782187490.64188 710 0b1327a3920705cb746558b0b1960fdd ""
+  "sections/experiment_intro.tex" 1782186381.24199 679 1dc5b8e032bd90fc672600deea56e3af ""
+  "sections/experiment_results.tex" 1782187437.50231 8479 232896cbbe46039bf79eb95203589c35 ""
   (generated)
   "report.aux"
   "report.bcf"

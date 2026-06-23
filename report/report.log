@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.23)  20 JUN 2026 17:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.3.23)  23 JUN 2026 00:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1374,6 +1374,13 @@ LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
 Package babel Info: 'spanish' activates 'spanish' shorthands.
 (babel)             Reported on input line 14.
+
+
+LaTeX Warning: Label `fig:grafico_tiempo_memoria' multiply defined.
+
+
+LaTeX Warning: Label `fig:grafico_tiempo_memoria@cref' multiply defined.
+
 )
 \openout1 = `report.aux'.
 
@@ -1533,26 +1540,87 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 8.27998pt on input line 43.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 43.
- (./sections/experiment_intro.tex) (./sections/experiment_results.tex [1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}
+ (./sections/experiment_intro.tex) (./sections/experiment_results.tex
+Underfull \hbox (badness 10000) in paragraph at lines 7--9
+
+ []
+
+[1{/usr/local/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/local/texlive/2026/texmf-dist/fonts/enc/dvips/base/8r.enc}
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 13--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--21
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 25--29
+
+ []
+
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 39.
+(Font)              scaled to size 10.07397pt on input line 33.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 39.
+(Font)              scaled to size 7.63599pt on input line 33.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 39.
+(Font)              scaled to size 5.51999pt on input line 33.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 10.07397pt on input line 39.
+(Font)              scaled to size 10.07397pt on input line 33.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 7.63599pt on input line 39.
+(Font)              scaled to size 7.63599pt on input line 33.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 39.
- [2]) (./sections/conclusions.tex)
+(Font)              scaled to size 5.51999pt on input line 33.
+[2]
+<../code/implementation/data/plots/tiempo_ejecucion.png, id=31, 722.7pt x 433.62pt>
+File: ../code/implementation/data/plots/tiempo_ejecucion.png Graphic file (type png)
+<use ../code/implementation/data/plots/tiempo_ejecucion.png>
+Package pdftex.def Info: ../code/implementation/data/plots/tiempo_ejecucion.png  used on input line 58.
+(pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
+<../code/implementation/data/plots/consumo_memoria.png, id=33, 722.7pt x 433.62pt>
+File: ../code/implementation/data/plots/consumo_memoria.png Graphic file (type png)
+<use ../code/implementation/data/plots/consumo_memoria.png>
+Package pdftex.def Info: ../code/implementation/data/plots/consumo_memoria.png  used on input line 61.
+(pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 67--71
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--80
+
+ []
+
+[3 <../code/implementation/data/plots/tiempo_ejecucion.png> <../code/implementation/data/plots/consumo_memoria.png>]
+<../code/implementation/data/plots/calidad_solucion.png, id=41, 722.7pt x 433.62pt>
+File: ../code/implementation/data/plots/calidad_solucion.png Graphic file (type png)
+<use ../code/implementation/data/plots/calidad_solucion.png>
+Package pdftex.def Info: ../code/implementation/data/plots/calidad_solucion.png  used on input line 100.
+(pdftex.def)             Requested size: 236.01561pt x 141.60632pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--110
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+) [4 <../code/implementation/data/plots/calidad_solucion.png>] (./sections/conclusions.tex)
 
 LaTeX Warning: Empty bibliography on input line 55.
 
-[3] (./report.aux
+[5] (./report.aux
 LaTeX Info: Redefining \sptext on input line 14.
 LaTeX Info: Redefining \. on input line 14.
 LaTeX Info: Redefining \% on input line 14.
@@ -1562,6 +1630,10 @@ Package cleveref Info: loaded `spanish' language definitions on input line 14.
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
  ***********
+
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `report.out' has not changed.
 (rerunfilecheck)             Checksum: 9F014D8548A379B0748383F91CE3555E;406.
 Package logreq Info: Writing requests to 'report.run.xml'.
@@ -1569,18 +1641,18 @@ Package logreq Info: Writing requests to 'report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 55562 strings out of 467525
- 1264718 string characters out of 5418988
- 2256790 words of memory out of 5000000
- 83657 multiletter control sequences out of 15000+600000
+ 55603 strings out of 467525
+ 1266330 string characters out of 5418988
+ 2253969 words of memory out of 5000000
+ 83694 multiletter control sequences out of 15000+600000
  712411 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 107i,11n,110p,7212b,2138s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 107i,12n,110p,7212b,2144s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/local/texlive/2026/texmf-dist/fonts/type1/adobe/utopia/putb8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/adobe/utopia/putr8a.pfb></usr/local/texlive/2026/texmf-dist/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on report.pdf (3 pages, 60995 bytes).
+Output written on report.pdf (5 pages, 564370 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
- 7 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 

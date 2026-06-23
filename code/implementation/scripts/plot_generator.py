@@ -59,7 +59,7 @@ def generar_graficos():
         print("NO hay datos en el archivo de mediciones")
         return
 
-    df_optimo =df[df['Algoritmo'] == 'Dinamica'][['Dataset', 'Resultado']].rename(columns={'Resultado': 'Optimo'})
+    df_optimo = df[df['Algoritmo'] == 'Dinamica'][['Dataset', 'Resultado']].rename(columns={'Resultado': 'Optimo'})
     df = df.merge(df_optimo, on='Dataset', how='left')
     df['Calidad_%'] = df.apply(lambda row: (row['Resultado'] / row['Optimo'] * 100) if row['Optimo'] > 0 else 0, axis=1)
     
@@ -70,57 +70,58 @@ def generar_graficos():
     }).reset_index()
 
     algoritmos = df_grouped['Algoritmo'].unique()
-
+    
+    plt.figure(figsize=(10, 6))
     for algo in algoritmos:
         if algo in ['Greedy_1', 'Greedy_2', 'Dinamica']:
             subset = df_grouped[df_grouped['Algoritmo'] == algo].sort_values('Size')
             if not subset.empty:
                 plt.plot(subset['Size'], subset['Calidad_%'], marker='o', linewidth=2, label=algo)
 
-        plt.title("Calidad de la Solución de las Heurísticas")
-        plt.xlabel("Cantidad de animes (N)")
-        plt.ylabel("Porcentaje respecto al Óptimo (%)")
-        
-        plt.axhline(100, color='red', linestyle='--', alpha=0.5, label='Optimo Ideal(100%)')
-        plt.grid(True, linestyle='--', alpha=0.7)
-        plt.legend()
-        plt.tight_layout()
-        if algo == 'Greedy_1':
-            plt.savefig(os.path.join(salida, 'calidad_solucion_Greedy1.png'), dpi=300)
-        elif algo == 'Greedy_2':
-            plt.savefig(os.path.join(salida, 'calidad_solucion_Greedy2.png'), dpi=300)
-        plt.close()
+    plt.title("Calidad de la Solución de las Heurísticas")
+    plt.xlabel("Cantidad de animes (N)")
+    plt.ylabel("Porcentaje respecto al Óptimo (%)")
+    
+    plt.axhline(100, color='red', linestyle='--', alpha=0.5, label='Optimo Ideal(100%)')
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.legend()
+    plt.tight_layout()
+    
+    plt.savefig(os.path.join(salida, 'calidad_solucion.png'), dpi=300)
+    plt.close()
 
-        plt.figure(figsize=(10, 6))
-        for algo in algoritmos:
-            subset = df_grouped[df_grouped['Algoritmo'] == algo].sort_values('Size')
-            if not subset.empty:
-                plt.plot(subset['Size'], subset['Tiempo_ms'], marker='o', linewidth=2, label=algo)
-        plt.title("Tiempo de ejecucion Promedio")
-        plt.xlabel("Cantidad de animes (N)")
-        plt.ylabel("Tiempo (ms)")
-        plt.grid(True, linestyle='--', alpha=0.7)
-        plt.legend()
-        plt.tight_layout()
-        plt.savefig(os.path.join(salida, 'tiempo_ejecucion.png'), dpi=300)
-        plt.close()
-        
-        plt.figure(figsize=(10, 6))
-        for algo in algoritmos:
-            subset = df_grouped[df_grouped['Algoritmo'] == algo].sort_values('Size')
-            if not subset.empty:
-                plt.plot(subset['Size'], subset['Memoria_KB'], marker='s', linewidth=2, linestyle='-.', label=algo)
+    plt.figure(figsize=(10, 6))
+    for algo in algoritmos:
+        subset = df_grouped[df_grouped['Algoritmo'] == algo].sort_values('Size')
+        if not subset.empty:
+            plt.plot(subset['Size'], subset['Tiempo_ms'], marker='o', linewidth=2, label=algo)
+            
+    plt.title("Tiempo de ejecucion Promedio")
+    plt.xlabel("Cantidad de animes (N)")
+    plt.ylabel("Tiempo (ms)")
+ 
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(os.path.join(salida, 'tiempo_ejecucion.png'), dpi=300)
+    plt.close()
+    plt.figure(figsize=(10, 6))
+    for algo in algoritmos:
+        subset = df_grouped[df_grouped['Algoritmo'] == algo].sort_values('Size')
+        if not subset.empty:
+            plt.plot(subset['Size'], subset['Memoria_KB'], marker='s', linewidth=2, linestyle='-.', label=algo)
 
-        plt.title("Consumo de Memoria Promedio")
-        plt.xlabel("Cantidad de animes (N)")
-        plt.ylabel("Memoria Promedio Utilizada (KB)")
-        plt.grid(True, linestyle='--', alpha=0.7)
-        plt.legend()
-        plt.tight_layout()
-        plt.savefig(os.path.join(salida, 'consumo_memoria.png'), dpi=300)
-        plt.close()
+    plt.title("Consumo de Memoria Promedio")
+    plt.xlabel("Cantidad de animes (N)")
+    plt.ylabel("Memoria Promedio Utilizada (KB)")
+    
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.legend()
+    plt.tight_layout()
+    plt.savefig(os.path.join(salida, 'consumo_memoria.png'), dpi=300)
+    plt.close()
 
-        print("Graficos generados con exito, revise en la carpeta data/plots")
+    print("Graficos generados con exito, revise en la carpeta data/plots")
 
 if __name__ == "__main__":
     generar_graficos()
